@@ -47,6 +47,30 @@
             }
         },
         {
+            "Key": "1dc6f624-7161-429a-8b4b-496cc3390816",
+            "Value": {
+                "id": "737572b7-8f4e-4136-8114-4d7243f795d4",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "22f5ecee-1ff3-43d9-877f-c35ea9c0d439",
+            "Value": {
+                "id": "044cce15-4c5c-4f06-ace2-3ceca3b52efb",
+                "resourcePath": "scripts\\generateCode\\generateCode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2a1f8d75-dd14-4e57-bd58-e61934a41f97",
+            "Value": {
+                "id": "03a5504e-4cd2-4f97-afb1-d36741d6cb61",
+                "resourcePath": "objects\\oGameVars\\oGameVars.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "35d02f0a-096e-492f-a5da-ca6ddb96bead",
             "Value": {
                 "id": "b704e6cb-9a85-4f18-8431-3b9e6b62c5a7",
@@ -55,11 +79,27 @@
             }
         },
         {
+            "Key": "3e7e6f28-f99d-42f6-8d82-438e5981418c",
+            "Value": {
+                "id": "575d2285-9f7a-4f63-a86d-cdcf2b727d6f",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4008e31b-8c6c-44c2-966d-b3ac1d69eaf2",
             "Value": {
                 "id": "c3071cf1-63c6-45ac-8187-bba5caf421a8",
                 "resourcePath": "views\\4008e31b-8c6c-44c2-966d-b3ac1d69eaf2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4968ec80-8d53-4fb0-aaad-b3d83b573cf8",
+            "Value": {
+                "id": "a942f5b8-93b6-4d87-935d-512ae1ff4e84",
+                "resourcePath": "sprites\\sprChest\\sprChest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -84,6 +124,14 @@
                 "id": "274e2ff7-2c8b-4997-a684-a4a192271f9d",
                 "resourcePath": "views\\6f654f28-ae42-4ee6-8a64-79c92a7e4d1d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "715c452f-e8b1-44ce-a969-c2cceb727ba8",
+            "Value": {
+                "id": "bd956bd7-206d-475f-97f4-07313b97a895",
+                "resourcePath": "objects\\oChest\\oChest.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -151,6 +199,14 @@
             }
         },
         {
+            "Key": "b825a183-3fec-4e6b-afdd-efbce1b0d0cc",
+            "Value": {
+                "id": "ef7bb878-0f43-4d87-bd9b-cc8d752cdda6",
+                "resourcePath": "sounds\\right\\right.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "27955523-0634-42a4-aba0-bad89ada2ec6",
@@ -167,11 +223,27 @@
             }
         },
         {
+            "Key": "df3edbb1-6751-40ae-8f06-05de575cef47",
+            "Value": {
+                "id": "b3a5d8c2-8465-4b5f-801b-bb2fec39737e",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "987ec400-c4f9-4518-915f-3229ff8b36df",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4df4486-ef85-4cec-82ed-adcf6870edfe",
+            "Value": {
+                "id": "7f664e08-4905-4348-80b6-bf55cb8b94ba",
+                "resourcePath": "sounds\\wrong\\wrong.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -189,10 +261,19 @@
                 "resourcePath": "views\\f6c9aadc-ae47-441d-8d23-7e9417e63a40.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f7fc22fe-b769-43b4-a296-df9c91a92337",
+            "Value": {
+                "id": "4604184a-c530-49a8-b1aa-7743c7c13e88",
+                "resourcePath": "scripts\\brokeLockpick\\brokeLockpick.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "22f5ecee-1ff3-43d9-877f-c35ea9c0d439",
+        "f7fc22fe-b769-43b4-a296-df9c91a92337"
     ],
     "tutorial": ""
 }
