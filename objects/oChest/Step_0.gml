@@ -6,8 +6,13 @@ var hasLockpicks = global.amountLockpicks > 0 ? true : false;
 
 
 if (codeSolved == true) {
-	global.level += 1;
-	room_restart();
+		global.level += 1;
+	if (global.level < array_length_1d(codeSize)) {
+		room_goto(room1);
+	}
+	else {
+		room_goto(room2);
+	}
 }
 
 if (hasLockpicks) {	

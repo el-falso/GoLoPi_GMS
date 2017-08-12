@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "bcd193b4-7611-4e18-9c10-2f2898dd1daf",
+            "Value": {
+                "id": "5b4e8b6c-0058-4193-bf4a-30347b8af075",
+                "resourcePath": "objects\\oRoomTrans\\oRoomTrans.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "27955523-0634-42a4-aba0-bad89ada2ec6",

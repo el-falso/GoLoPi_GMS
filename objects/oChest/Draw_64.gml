@@ -8,6 +8,6 @@ draw_text(100, 130, "Level: " + string(global.level + 1));
 draw_text(100, 160, "Lockpicks: " + string(global.amountLockpicks));
 draw_text(100, 190, "Lockpicking-Skill: " + string(global.skillLockpicking));
 
-draw_text(900, 100, "Dev:");
-draw_text(900, 130, "key: " + string(keyboard_key));
-//draw_text(900, 160, "Code: " + codeStr);
+draw_text(800, 100, "Dev:");
+draw_text(800, 130, "key: " + string(keyboard_key));
+draw_text(800, 160, "Code: " + codeStr);
