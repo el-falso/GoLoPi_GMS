@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw text
 
 draw_set_alpha(alpha);
 draw_set_halign(fa_center);

@@ -1,17 +1,22 @@
 /// @description Code Check
 
+#region Variables
 var pressedKey = max(keyboard_check_pressed(vk_left), keyboard_check_pressed(vk_right))
 var codeSolved = index >= ds_list_size(code) ? true : false;
 var hasLockpicks = global.amountLockpicks > 0 ? true : false;
+#endregion
 
 
 if (codeSolved == true) {
 		global.level += 1;
 	if (global.level < array_length_1d(codeSize)) {
-		room_goto(room1);
+		global.rmState = rmMid_State.won;
+		room_goto(rmMid);
 	}
 	else {
-		room_goto(room2);
+		global.rmState = rmMid_State.won;
+		global.level = 0;
+		room_goto(rmMid);
 	}
 }
 
@@ -53,5 +58,6 @@ if (hasLockpicks) {
 	}
 }
 else {
-	room_goto(room2)
+	global.rmState = rmMid_State.lost;
+	room_goto(rmMid);
 }

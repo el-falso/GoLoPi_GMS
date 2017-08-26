@@ -1,8 +1,11 @@
+/// @func brokeLockpick(skillLockpicking)
+/// @desc Compares Chances between Skill and breaking for Lockpick 
+/// @arg {float} skillLockpicking Value of Lockpicking-Skill
+
 skillLockpicking = argument0;
 
 randomize();
 
-lol = irandom_range(0, 100) / 100;
+breakChance = irandom_range(0, 100) / 100;
 
-
-return lol < skillLockpicking;
+return breakChance > skillLockpicking;

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Start alarm
 
 if (alarm[0] == -1) {
 alarm = 120;

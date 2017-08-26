@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize variables
+
 alpha = 0;
 showText = 0;
 lockText = "";
