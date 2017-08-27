@@ -9,4 +9,4 @@ draw_text(100, 190, "Lockpicking-Skill: " + string(global.skillLockpicking));
 
 draw_text(800, 100, "Dev:");
 draw_text(800, 130, "key: " + string(keyboard_key));
-draw_text(800, 160, "Code: " + codeStr);
+// draw_text(800, 160, "Code: " + codeStr);

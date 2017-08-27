@@ -2,10 +2,10 @@
 
 switch (global.rmState) {
 	case rmMid_State.lost:
-		room_goto(room2);
+		room_goto(rmMenu);
 		break;
 	case rmMid_State.won:
-		room_goto(room0);
+		room_goto(rmMain);
 		break;
 	default:
 		break;

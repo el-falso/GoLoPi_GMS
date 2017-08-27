@@ -14,9 +14,8 @@ if (codeSolved == true) {
 		room_goto(rmMid);
 	}
 	else {
-		global.rmState = rmMid_State.won;
 		global.level = 0;
-		room_goto(rmMid);
+		room_goto(rmMenu);
 	}
 }
 
