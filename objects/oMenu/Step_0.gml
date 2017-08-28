@@ -12,6 +12,7 @@ if (menuMove != 0) { audio_play_sound(sndNoti, 10, false) }
 if (keyboard_check_pressed(vk_enter)) {
 	switch (menuIndex) {
 		case 0:
+			resetGlobals();
 			room_goto(rmMain);
 			break;
 		case 1:

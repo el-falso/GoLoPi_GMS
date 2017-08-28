@@ -9,6 +9,9 @@ var hasLockpicks = global.amountLockpicks > 0 ? true : false;
 
 if (codeSolved == true) {
 		global.level += 1;
+		lootArr = calcLootSkill();
+		global.amountLockpicks += lootArr[0];
+		global.skillLockpicking += lootArr[1];
 	if (global.level < array_length_1d(codeSize)) {
 		global.rmState = rmMid_State.won;
 		room_goto(rmMid);
