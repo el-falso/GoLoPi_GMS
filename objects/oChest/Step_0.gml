@@ -8,6 +8,7 @@ var hasLockpicks = global.amountLockpicks > 0 ? true : false;
 
 
 if (codeSolved == true) {
+		global.points += 100;
 		global.level += 1;
 		lootArr = calcLootSkill();
 		global.amountLockpicks += lootArr[0];
@@ -38,13 +39,19 @@ if (hasLockpicks) {
 	if (pressedKey) {
 		// pressed key matches code-index
 		if (code[| index]) == lastKey {
+			if (maxIndex < index) {
+				global.points += 10;
+				maxIndex++;
+			}
 			variable_instance_set(oText.id, "lockText", "That sounded good.");
 			oText.showText = 1;
 			audio_play_sound(right, 10, false);
 			index++;
+			
 		}
 		// pressed key doesn't match code-index
 		else {
+			global.points -= 10;
 			if (brokeLockpick(global.skillLockpicking)) {
 				global.amountLockpicks -=1;
 				variable_instance_set(oText.id, "lockText", "The lockpick broke.");

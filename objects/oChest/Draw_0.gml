@@ -1,3 +1,3 @@
-/// @description Draw sprite
+/// @description Insert description here
 
 draw_self();

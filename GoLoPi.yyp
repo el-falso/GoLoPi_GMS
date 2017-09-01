@@ -215,6 +215,22 @@
             }
         },
         {
+            "Key": "aa2ab038-1b11-4066-8312-916ae3bbecd0",
+            "Value": {
+                "id": "504423ba-94c1-47d1-a66a-906ae9d3f476",
+                "resourcePath": "fonts\\fntGame\\fntGame.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "ae236fc2-20c1-491a-9f79-2f184dddd6bf",
+            "Value": {
+                "id": "f3ab1fa4-a023-47ec-b7a2-fa1a03c2b8b2",
+                "resourcePath": "sprites\\sprGuiMid\\sprGuiMid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b6df96e9-0d4d-449a-a906-e6a8229e2c92",
             "Value": {
                 "id": "ba8ccff4-b8ad-4fee-93a5-4fbad066b9e7",
@@ -308,6 +324,14 @@
                 "id": "f2c1a373-e2aa-4e14-820f-2078deb9dede",
                 "resourcePath": "views\\f6c9aadc-ae47-441d-8d23-7e9417e63a40.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7cdb8b8-de53-48bc-9535-f083be56defd",
+            "Value": {
+                "id": "35caba16-6a63-4a30-8253-aa098ee301e4",
+                "resourcePath": "objects\\oGUI\\oGUI.yy",
+                "resourceType": "GMObject"
             }
         },
         {
